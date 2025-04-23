@@ -1,0 +1,125 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background-color: #0f0f0f;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.project {
+  background-color: var(--bg-black);
+  border: 1px solid #333;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  border-radius: 0.625rem;
+  gap: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-0.625rem);
+}
+
+.project-image {
+  border: 1px solid #333;
+  border-radius: 0.625rem;
+  padding: 0.9375rem;
+  aspect-ratio: 1/1;
+  width: 15em;
+  height: 15em;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover img {
+  transform: translateY(-0.3125rem);
+}
+
+.project-details {
+  margin-top: 10px;
+}
+
+.project-details h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.project-details p {
+  color: #555;
+}
+
+.projects-section {
+  padding: 2rem 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-content {
+  width: 80%;
+  margin: auto;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  color: var(--main-color);
+  margin-bottom: 2rem;
+}
+
+.projects .project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(15rem, 1fr));
+  gap: 2rem;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  color: var(--main-color);
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 1.6;
+}

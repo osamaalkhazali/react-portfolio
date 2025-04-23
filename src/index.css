@@ -1,0 +1,76 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+:root{
+  --main-color: #b96029;
+  --secondary-color: #ba4700;
+  --text-color: white;
+  --bg-gray: #0f0f0f;
+  --bg-black: black;
+  --bg-333: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  cursor: url('./assets/images/cursor-small1.png'), auto;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: "Poiret One", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #000;
+  color: var(--text-color);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.bg-gray {
+  background-color: #0f0f0f;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-333 {
+  background-color: #333;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+} */

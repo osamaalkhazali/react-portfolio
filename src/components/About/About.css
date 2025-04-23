@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.about {
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-family: "Poiret One", sans-serif;
+  position: relative;
+}
+
+.about-content {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content h2 {
+  color: var(--main-color);
+}
+
+.about-content .about-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 60%;
+  margin-bottom: 1.5rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.about-fun-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  margin: auto;
+  max-height: 200px;
+  justify-content: center;
+}
+
+.fact-card {
+  border: #333 solid 1px;
+  background: var(--bg-gray);
+  color: var(--text-color);
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 250px;
+  max-height: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-goals {
+  border: #333 solid 1px;
+  background: var(--bg-gray);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  height: auto;
+  margin-top: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fact-card:hover,
+.about-goals:hover {
+  transform: translateY(-10px);
+}
+
+.fact-card h3,
+.about-goals h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fact-card p,
+.about-goals p {
+  font-size: 1rem;
+}
+
+/* Media queries remain the same... */
