@@ -1,10 +1,15 @@
 :root {
-  --main-color: #b96029;
-  --secondary-color: #ba4700;
-  --text-color: white;
-  --bg-gray: #0f0f0f;
-  --bg-black: black;
-  --bg-333: #333;
+  --main-color: #f97316;         /* A vibrant orange */
+  --secondary-color: #fb923c;    /* Lighter orange */
+  --text-color: #f8fafc;         /* Off-white for better readability */
+  --bg-dark: #0f172a;            /* Deep blue-black */
+  --bg-darker: #020617;          /* Almost black */
+  --bg-card: #1e293b;            /* Dark slate for cards */
+  --accent: #38bdf8;             /* Bright blue accent */
+  --gray-border: #334155;        /* Border color */
+  --success: #4ade80;            /* Success color */
+  --error: #f43f5e;              /* Error color */
+  --transition-speed: 0.3s;      /* Standard transition speed */
 }
 
 .bg-gray {
